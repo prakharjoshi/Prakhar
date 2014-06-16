@@ -1,0 +1,73 @@
+html, body {
+  font-family:'Raleway', sans-serif;
+  background-color: #fcfcfc;
+  
+  color: #888;
+  }
+  
+  p{
+    font-weight:lighter;
+    font-size:27px;
+  }
+  
+  
+  a, a:visited {
+/*   #d23 was the read one   */
+  color: #00933B;
+  text-decoration: none;
+  -webkit-transition: color 0.15s linear;
+  -moz-transition: color 0.15s linear;
+
+  border-bottom: 1px dotted #fcc;
+  }
+
+a:hover {
+/*   color: #f78; */
+  color : #15bf59;
+  
+}
+  
+  #main {  
+  font-size : 100px;
+  width: 50%;
+  margin: 75px auto;
+  }
+  
+  h2{
+    font-size : 30px;
+    font-weight : 600;
+    
+  }
+  h1{
+    font-size : 35px;
+    font-weight : 800;
+    color : #d23;
+  }
+  
+  #tinytext{
+    font-size:16px;
+  }
+
+  #avatar {
+  width: 128px;
+  height: 128px;
+  border-radius:         50%;
+  -moz-border-radius:    50%;
+  -webkit-border-radius: 50%;
+  background: #eeeeee url('https://lh4.googleusercontent.com/-UMT_la0Xj6o/AAAAAAAAAAI/AAAAAAAAAMk/XeOzCqj6ZCs/s120-c/photo.jpg') no-repeat;
+  background-size: 128px 128px;
+
+  margin-bottom: 30px;
+}
+
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
